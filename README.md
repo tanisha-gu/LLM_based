@@ -74,7 +74,7 @@ Open your browser at **http://localhost:5000**
 4. **Manage documents** — uncheck a document to exclude it from a query, or click ✕ to remove it.
 5. **Clear chat** — click "↺ Clear" to start a fresh conversation (documents remain loaded).
 
----
+------------
 
 ## Project Structure
 
@@ -87,7 +87,7 @@ ollama-rag/
 └── uploads/            # Uploaded files stored here (created automatically)
 ```
 
----
+---------------------
 
 ## Configuration
 
@@ -105,7 +105,7 @@ To use a remote Ollama instance:
 OLLAMA_BASE_URL=http://192.168.1.10:11434 python app.py
 ```
 
----
+-----------------
 
 ## How It Works
 
@@ -160,7 +160,7 @@ This depends on your hardware and model size. Smaller models like `phi3` or `gem
 **Embeddings not working / keyword fallback**
 Run `ollama pull nomic-embed-text` and make sure Ollama is running before uploading files.
 
----
+--------------------
 
 ## Dependencies
 
