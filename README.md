@@ -2,13 +2,13 @@
 
 A fully local RAG (Retrieval-Augmented Generation) application that lets you upload PDF and Word documents and chat with them using Ollama models. Your data never leaves your machine.
 
----
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## What It Does
 
 Upload one or more documents (PDF, DOCX, TXT), then ask questions in plain English. The backend splits your files into chunks, embeds them with an Ollama embedding model, retrieves the most relevant passages for each question, and feeds them to a local LLM as context.
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Requirements
 
@@ -74,7 +74,7 @@ Open your browser at **http://localhost:5000**
 4. **Manage documents** — uncheck a document to exclude it from a query, or click ✕ to remove it.
 5. **Clear chat** — click "↺ Clear" to start a fresh conversation (documents remain loaded).
 
-------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Project Structure
 
@@ -87,7 +87,7 @@ ollama-rag/
 └── uploads/            # Uploaded files stored here (created automatically)
 ```
 
----------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Configuration
 
@@ -144,7 +144,7 @@ If the embedding model is not available, the app falls back to keyword-based ret
 | DELETE | `/api/documents/<id>`   | Remove a document                  |
 | POST   | `/api/chat`             | Ask a question (SSE streaming)     |
 
----
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Troubleshooting
 
@@ -160,7 +160,7 @@ This depends on your hardware and model size. Smaller models like `phi3` or `gem
 **Embeddings not working / keyword fallback**
 Run `ollama pull nomic-embed-text` and make sure Ollama is running before uploading files.
 
---------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Dependencies
 
