@@ -2,8 +2,6 @@
 
 A fully local RAG (Retrieval-Augmented Generation) application that lets you upload PDF and Word documents and chat with them using Ollama models. Your data never leaves your machine.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## What It Does
 
 Upload one or more documents (PDF, DOCX, TXT), then ask questions in plain English. The backend splits your files into chunks, embeds them with an Ollama embedding model, retrieves the most relevant passages for each question, and feeds them to a local LLM as context.
