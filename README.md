@@ -158,7 +158,7 @@ This depends on your hardware and model size. Smaller models like `phi3` or `gem
 **Embeddings not working / keyword fallback**
 Run `ollama pull nomic-embed-text` and make sure Ollama is running before uploading files.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------
 
 ## Dependencies
 
