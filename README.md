@@ -1,4 +1,5 @@
 # DocMind — Local AI Document Chat
+------------------------------------------
 
 A fully local RAG (Retrieval-Augmented Generation) application that lets you upload PDF and Word documents and chat with them using Ollama models. Your data never leaves your machine.
 
