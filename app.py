@@ -1,3 +1,4 @@
+#import all library 
 import os
 import json
 import hashlib
@@ -5,7 +6,7 @@ import re
 from flask import Flask, request, jsonify, render_template, Response, stream_with_context
 from flask_cors import CORS
 import requests
-
+import re
 # Optional imports with graceful fallback
 try:
     import fitz  # PyMuPDF
